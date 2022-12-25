@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+check_factor()
+{
+if [ $# -ne 3 ];
+then
+args=("$@")
+count=0
+num2=1
+for a in ${args[*]};
+do
+
+
